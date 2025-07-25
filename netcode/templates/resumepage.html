@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            background-color: #2ecc71;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #27ae60;
+        }
+
+        .resume-image {
+            width: 60%;
+            max-width: 700px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+
+        .resume-image:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <a class="btn" href="/">Back to Home</a>
+    <h2>My Resume</h2>
+
+    <a href="/static/resume.pdf" download>
+        <img src="/static/resume_preview.jpg" alt="Resume Preview" class="resume-image">
+    </a>
+
+    <p>Click the image above to download the full resume as a PDF.</p>
+</body>
+</html>
