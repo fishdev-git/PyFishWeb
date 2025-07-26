@@ -105,11 +105,11 @@ function setup() {
   rectMode(CENTER);
   textAlign(CENTER);
   imageMode(CENTER);
-  boop = loadSound("Audio/Boop3.mp3");
-  clank = loadSound("Audio/clank2.mp3");
-  glug = loadSound("Audio/glug2.mp3");
-  munch = loadSound("Audio/swallow2.mp3");
-  place2 = loadSound("Audio/place2.mp3");
+  //boop = loadSound("Audio/Boop3.mp3");
+  //clank = loadSound("Audio/clank2.mp3");
+  //glug = loadSound("Audio/glug2.mp3");
+  //munch = loadSound("Audio/swallow2.mp3");
+  //place2 = loadSound("Audio/place2.mp3");
   hearts = [
     new heart(createVector(width / 2 - 75, height / 2 + 35)),
     new heart(createVector(width / 2, height / 2 + 50)),

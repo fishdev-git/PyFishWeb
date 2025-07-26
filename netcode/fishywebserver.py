@@ -14,7 +14,7 @@ class fish_server():
 
         @self.app.route('/abyss')
         def game():
-            return "spaghetti"
+            return render_template('index.html')
 
     def host(self):
         self.app.run(host='0.0.0.0', port=8080)

@@ -43,10 +43,10 @@ class home {
 
     this.animation = new loganime();
 
-    this.music = loadSound("Audio/Logo.mp3", () => {
-      this.musicLoaded = true; // Set a flag when the music is loaded
-    });
-    this.musicLoaded = false;
+  //  this.music = loadSound("Audio/Logo.mp3", () => {
+  //   this.musicLoaded = true; // Set a flag when the music is loaded
+   // });
+  //  this.musicLoaded = false;
   }
   //state based homescreen drawing
   draw() {
